@@ -9,7 +9,7 @@ const Home = () => {
   const [inputValue, setInputValue] = useState("");
   const [todos, setTodos] = useState([]);
   
-  const API_BASE_URL = "https://curly-system-5gq94v5pj9vv2ppgp-3000.app.github.dev";
+  const API_BASE_URL = "http://localhost:3001";
 
   useEffect(() => {
    

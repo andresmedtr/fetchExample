@@ -8,6 +8,10 @@ app.use(bodyParser.json());
 
 let todos = [];
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the TodoList API!');
+});
+
 app.get('/tasks', (req, res) => {
   res.json({ tasks: todos });
 });
